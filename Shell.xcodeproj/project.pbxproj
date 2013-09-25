@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4843153617F33BE5006F6DB3 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4843153517F33BE5006F6DB3 /* MobileCoreServices.framework */; };
 		48922C2617F1616600AD44E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48922C2517F1616600AD44E4 /* UIKit.framework */; };
 		48922C2817F1616600AD44E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48922C2717F1616600AD44E4 /* Foundation.framework */; };
 		48922C2A17F1616600AD44E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48922C2917F1616600AD44E4 /* CoreGraphics.framework */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4843153517F33BE5006F6DB3 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		48922C2217F1616600AD44E4 /* Shell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48922C2517F1616600AD44E4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		48922C2717F1616600AD44E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -44,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4843153617F33BE5006F6DB3 /* MobileCoreServices.framework in Frameworks */,
 				48922C2617F1616600AD44E4 /* UIKit.framework in Frameworks */,
 				48922C2817F1616600AD44E4 /* Foundation.framework in Frameworks */,
 				48922C2A17F1616600AD44E4 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +76,7 @@
 		48922C2417F1616600AD44E4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4843153517F33BE5006F6DB3 /* MobileCoreServices.framework */,
 				48922C2517F1616600AD44E4 /* UIKit.framework */,
 				48922C2717F1616600AD44E4 /* Foundation.framework */,
 				48922C2917F1616600AD44E4 /* CoreGraphics.framework */,
